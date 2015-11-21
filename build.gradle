@@ -1,0 +1,18 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+version = '1.0'
+mainClassName = 'org.sanj2sanj.Application'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    testCompile group: 'org.mockito', name: 'mockito-all', version: '1.8.4'
+    compile group: 'com.google.guava', name: 'guava', version: '17.0'
+}

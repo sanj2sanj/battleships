@@ -1,0 +1,4 @@
+10
+(0, 0, N) (9, 2, E)
+(0, 0) MRMLMMMMMMMRMMMMMMMM
+(9, 2)
